@@ -49,7 +49,7 @@ header img{
   min-width: 288px;
   max-width: 900px;
   height: 218px;
-  margin-top: 50px;
+  margin-top: 40px;
   text-align: center;
   align-self: center;
 }
@@ -59,4 +59,39 @@ header img{
   font-weight: bold;
   line-height: 2.6rem;
   color: var(--just-white);
+  }
+  .header--titulo-contenedor p{
+    margin-top: 25px;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    color:  var(--soft-orange);
+  }
+  .header--titulo-contenedor .header--bottom{
+    position: absolute;
+    top: 270px;
+    left: calc(50% - 118px);
+    margin-top: 35px;
+    width: 229px;
+    height: 48px;
+    display: block;
+    padding: 15px;
+    background: var(--off-white);
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 8px rgba(89, 73, 30, 1.6);
+    color: var(--warm-black);
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 1.8rem;
+  }
+
+  .header--bottom span
+  {
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url('../assets/icons/down-arrow.svg');
   }
