@@ -318,6 +318,67 @@ header img{
       line-height: 1.8rem;
       color: #808080;
      }
-     .detalles_tarjetas{
-      
+     .detalles_tarjeta__general{
+       width: 90%;
+       min-width: 288px;
+       max-width: 400px;
+       min-height: 150px;
+       margin: 15px auto;
+       padding: 15px;
+       background: var(--warm-black1);
+       border-radius: 5px;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 1.6) 
      }
+      .detalles_tarjeta__general .icono{
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-bottom: 20px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .detalles_tarjetas__titulo{
+        font-size: 1.8rem;
+        font-weight: bold;
+        line-height: 1.8rem;
+        color: var(--just-white);
+        margin-bottom: 15px;
+      }
+      .detalles_tarjetas__cuerpo{
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 1.8rem;
+        color: #808080;
+        
+      }
+      .Relog{
+        background-image: url("../assets/icons/clock.svg");
+      }
+       .ojo{
+        background-image: url("../assets/icons/eye.svg");
+      }
+       .circulo{
+        background-image: url("../assets/icons/check-circle.svg");  
+      }
+       .dollar{
+        background-image: url("../assets/icons/dollar-sign.svg");
+      }
+      .bitcoin_img_contenedor{
+        width: 100%;
+        min-width: 320px;
+        height: 50vh;
+        background-image: url('../assets/img/bitcoinbaby2x.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+      .bitcoin_img_contenedor h2 {
+        width: 288px;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        text-align: center;
+        font-weight: bold;
+        color:  var(--just-white);
+        padding-top: 60px;
+        }
