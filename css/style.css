@@ -95,3 +95,156 @@ header img{
     margin-left: 10px;
     background-image: url('../assets/icons/down-arrow.svg');
   }
+  /* seccion 2  */
+  main{
+    width: 100%;
+    height: auto;
+    min-width: 320px;
+    background: var(--off-white);
+  }
+ .main_contenido__monedas{
+    width: 100%;
+    height: auto;
+    padding-top:80px;
+    padding-bottom: 35px;
+    text-align: center; 
+   
+  }
+  .main_contenido__titulo{
+    width: 90%;
+    min-width: 288px;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  .main_contenido__monedas .main_contenido__imagen{
+    width: 200px;
+    height: 200px;
+    margin:  0 auto;
+    margin-bottom: 50px;
+    background-image: url("../assets/img/Bitcoin.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .main_contenido__titulo h2{
+    margin-bottom: 35px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--warm-black);
+  }
+  
+  .main_contenido__titulo p{
+     font-size: 1.4rem;
+     line-height: 1.8rem;
+     font-weight: 500;
+     color: #757575; 
+     margin-bottom: 30px;
+    }
+  .main_moneda__actual{
+      width: 70%;
+      min-width: 235px ;
+      max-width: 500px;
+      height: 336px;
+      margin: 0 auto;
+      font-family: "inter", sans-serif;
+    }
+    .main_moneda__actual .main_moneda__titulo
+    {
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      line-height: 2.3rem;
+      color:  var(--bitcoin-orange);
+      text-align: left;
+    }
+    .main_tabla__contenedora{
+      width: 90%;
+      min-width: 230px;
+      max-width: 300px;
+      height: 250px;
+      margin:  0 auto;
+    }
+    .main_tabla__contenedora table{
+      width: 100%;
+      height: 100%;
+
+    }
+    .main_tabla__contenedora td{
+      width: 50%;
+      font-size: 1.6rem;
+      font-weight: 500;
+      line-height: 1.9rem;
+      color: var(--grey);
+      background-color: var(--just-white);
+    }
+    .main_tabla__contenedora .table_top__left{
+      border-radius: 15px 0 0 0;
+    }
+    .main_tabla__contenedora .table_top__rigth{
+      border-radius: 0 15px  0 0;
+    }
+    .main_tabla__contenedora .table__bottom_left{
+      border-radius: 0   0  0 15px;
+    }
+    .main_tabla__contenedora .table__bottom_rigth{
+      border-radius:  0  0 15px 0  ;
+    }
+    .table__rigth
+    {
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 1.7rem;
+      color: #757575; 
+    }
+    .main_tabla__contenedora .iconDown{
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      background-image: url("../assets/icons/trending-down.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    .main_tabla__contenedora .iconUp{
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      margin-left: 10px;
+      background-image: url("../assets/icons/trending-up.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+     .main__moneda_arrow
+    {
+      display: inline-block;
+      position: relative;
+      left: 55%;
+      top: 50%;
+      width: 10px;
+      height: 15px;
+      background-image: url("../assets/icons/right-arrow.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat; 
+
+    }
+    .main_moneda__actual .main_moneda__fecha{
+        width: 80%;
+        height: 3rem;
+        padding: 8px;
+        background: var(--soft-orange);
+        margin: 0 auto;
+        border-radius: 8px;
+        margin-top: 20px;
+    }
+    .main_moneda__actual .main_moneda__fecha p {
+      font-size: 1.2rem;
+      font-weight: 500;
+      line-height: 1.4rem;
+      text-align: center;
+      font-family: "inter",sans-serif;
+    }
