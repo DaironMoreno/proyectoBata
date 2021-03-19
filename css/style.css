@@ -141,13 +141,15 @@ header img{
      color: #757575; 
      margin-bottom: 30px;
     }
-  .main_moneda__actual{
+  .main_moneda__actual ,.main_moneda__comisiones{
+
       width: 70%;
       min-width: 235px ;
       max-width: 500px;
       height: 336px;
       margin: 0 auto;
       font-family: "inter", sans-serif;
+      margin-bottom: 40px;
     }
     .main_moneda__actual .main_moneda__titulo
     {
@@ -232,7 +234,7 @@ header img{
       background-repeat: no-repeat; 
 
     }
-    .main_moneda__actual .main_moneda__fecha{
+    .main_moneda__actual .main_moneda__fecha ,.main_comisiones__fecha{
         width: 80%;
         height: 3rem;
         padding: 8px;
@@ -240,11 +242,37 @@ header img{
         margin: 0 auto;
         border-radius: 8px;
         margin-top: 20px;
+        text-align: center;
     }
-    .main_moneda__actual .main_moneda__fecha p {
+     .main_moneda__fecha p ,.main_comisiones__fecha p{
       font-size: 1.2rem;
-      font-weight: 500;
+      font-weight: 300;
       line-height: 1.4rem;
-      text-align: center;
-      font-family: "inter",sans-serif;
+      color: var(--warm-black);
+    }
+    .main_moneda__comisiones .main_moneda__titulo{
+      color: var(--secondary-blue);
+      margin-bottom: 15px;
+      font-size: 1.8rem;
+      font-weight: bold;
+      line-height: 2.3rem;
+      text-align: left;
+    }
+    .main_comisiones__fecha{
+       
+       background: var(--soft-blue);
+      
+    }
+   
+    .main__comision_arrow{
+      display: inline-block;
+      position: relative;
+      right: 55%;
+      top: 50%;
+      width: 10px;
+      height: 15px;
+      background-image: url("../assets/icons/left-arrow.svg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
     }
