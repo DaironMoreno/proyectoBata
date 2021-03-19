@@ -26,6 +26,7 @@
 html{
     font-size: 62.5%;
     font-family: "DM sans", sans-serif;
+    scroll-behavior: smooth;
 }
 header{
   position: relative;
@@ -381,4 +382,103 @@ header img{
         font-weight: bold;
         color:  var(--just-white);
         padding-top: 60px;
+        }
+        .planes_contenedor{
+          width: 100%;
+          min-width: 320px;
+          padding-bottom: 70px;
+          text-align: center;
+        }
+        .planes_contenedor__titulo{
+         width: 90%;
+         min-width: 288px; 
+         height: auto;
+         margin:  0 auto;
+         padding: 50px 0 ;
+        }
+        .planes_contenedor__titulo h2{
+         font-size: 2.4rem;
+         font-weight: bold;
+         line-height: 2.6rem;
+         color: var(--warm-black);
+
+        }
+        .planes_contenedor__titulo p{
+          padding-top: 30px;
+          font-size: 1.4rem;
+         font-weight: 500;
+         line-height: 1.8rem;
+         color: #757575;
+        }
+        .planes_contenedor__tarjeta{
+          position: relative;
+          width: 60%;
+          min-width: 230px;
+          max-width: 300px;
+          background: var(--just-white);
+          margin: 50px auto 0 ;
+          height: 250px;
+          padding: 0 15px;
+          border-radius: 15px;
+          box-shadow: 0 4px 8px rgba(89,73,30,0.16);
+        }
+        .planes_contenedor__tarjeta .recomendado{
+        position: absolute;
+        left: calc(50% - 60px);
+        top: calc(0% - 16px);       
+        width: 120px;
+        padding: 6px;
+        height: 30px;
+        background: var(--bitcoin-orange);
+        color: var(--just-white);
+        border-radius: 8px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        line-height: 1.3rem;
+        font-family: "inter",sans-serif;
+        }
+        .tarjeta_titulo{
+          padding: 30px 0 20px;
+          font-weight: 500;
+          font-size: 1.4rem;
+          height: 1.8rem;
+          color: #000;
+
+        }
+        .tarjeta_costo{
+          padding: 5px 0;
+          font-size: 5.3rem;
+          font-weight: bold;
+          line-height: 6.3rem;
+          color: #000;
+        }
+        .tarjeta_costo span{
+          font-size: 1.3rem;
+          font-weight: 300;
+          vertical-align: text-top;
+        }
+        .tarjeta_info{
+          color: #757575;
+          font-size: 1.2rem;
+          line-height: 1.4rem;
+          font-weight: 500;
+        }
+        .tarjetas_accion{
+          width: 80%;
+          height: 48px;
+          border: 2px solid var(--bitcoin-orange);
+          background: #EFEFEF;
+          margin-top: 20px;
+          border-radius: 5px;
+          font-weight: bold;
+          font-size: 1.4rem;
+          line-height: 1.8rem;
+
+        }
+        .tarjetas_accion > span{
+           display: inline-block;
+            width:24px;
+            height: 20px; 
+            background-image: url('../assets/icons/orange-right-arrow.svg');
+            vertical-align: text-bottom;
         }
