@@ -142,15 +142,23 @@ header img{
      color: #757575; 
      margin-bottom: 30px;
     }
+    .main_contenido__table{
+      display: flex;
+      height: 400px;
+      overflow-x: scroll;
+      overscroll-behavior-x: contain; 
+      scroll-snap-type: x proximity;
+    }
   .main_moneda__actual ,.main_moneda__comisiones{
 
       width: 70%;
       min-width: 235px ;
       max-width: 500px;
       height: 336px;
-      margin: 0 auto;
+      margin: 0 10px;
       font-family: "inter", sans-serif;
       margin-bottom: 40px;
+      scroll-snap-align: center;
     }
     .main_moneda__actual .main_moneda__titulo
     {
@@ -393,7 +401,7 @@ header img{
         }
         .planes_contenedor_slider{
           display: flex;
-          height: 316px;
+          height: 325px;
           overflow-x: scroll;
           overscroll-behavior-x: contain; 
           scroll-snap-type: x proximity;
