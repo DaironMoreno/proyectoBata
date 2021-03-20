@@ -1,0 +1,45 @@
+html{
+	font-size: 80%;
+}
+.header--titulo-contenedor .header--bottom{
+	font-size: 1.1rem;
+}
+.planes_contenedor_slider{
+		justify-content: center;
+		overflow-x: hidden;
+	}
+.detalles_tarjetas{
+	display: flex;
+	flex-wrap: wrap;
+	width: 930px;
+	margin: 0 auto;
+
+}
+.main_moneda__actual .main_moneda__titulo , .main_moneda__comisiones .main_moneda__titulo{
+	text-align: center;
+}
+
+.main_contenido__table{
+	display: flex;
+	justify-content: center;
+	overflow-x: hidden;
+}
+
+
+
+
+
+.bitcoin_img_contenedor{
+        width: 100%;
+        background-image: url('../assets/img/bitcoinbaby2x.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+      }
+      .bitcoin_img_contenedor h2{
+      	width: 100%;
+        text-align: center;
+        font-size: 6.4rem;
+
+      }
